@@ -24,6 +24,7 @@ load('Processed_Data/Watershed Dataframes.Rdata')
 # Change it when you want to make a RF model for a different watershed
 dfTraining <- Training_BEF
 
+
 # RF models will be made for the following solutes
 YSolutes <- list("Cl", "NO3", "SO4", "Na", "K", 
                  "Mg", "Ca",  "DON", "DOC")
